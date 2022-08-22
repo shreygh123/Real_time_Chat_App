@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Chettan 2', cursive;
+   
+    user-select: none;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    max-height: 18vh;
+    background-image: linear-gradient(#5998ff,rgba(255,0,0,0),#5998ff);
+    /* background-image: linear-gradient(180deg, rgba(47,126,255,255), white); */
+}
+#logo{
+    max-width: 15vh;
+    border-radius: 24px;
+    margin: 8px 0px;
+}
+#status{
+    float: right;
+    padding-right: 5px;
+    font-size: larger;
+}
+.container{
+    max-width: 50vw;
+    margin: auto ;
+    height: 70vh;
+    margin-top: 5px;
+    background-image:url("/images/bg3.png");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-radius: 15px;
+   overflow-y:hidden;
+  }
+
+.left{
+    background-color: #5998ff;
+    width: 25%;
+    padding: 7px 7px;
+    margin :10px 5px;
+    border-radius: 8px;
+    float: left;
+    clear: both;
+    user-select: none;
+}
+.right{
+    background-color: white;
+    width: 25%;
+    padding: 7px 7px;
+    margin :10px 5px;
+    border-radius: 8px;
+    float: right;
+    clear: both;
+    user-select: none;
+}
+#send-container{
+    text-align: center;
+}
+#messageInp{
+    margin-top: 15px;
+    width: 46vw;
+    padding: 10px 10px;
+    font-size:medium;
+    border-radius: 25px;
+    border:rgb(219, 223, 14);
+    
+}
+#btn{
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 25px;
+    font-size:medium;
+}
+#btn:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
